@@ -1,0 +1,7 @@
+4 bit to hex
+
+Two 4 bit digits displayed in hex on separate seven segment displays on FPGA.
+
+Separate mode (by pushing pb2) displays the addition of those digits.
+
+the leds display the output of basic gate functions on the 4 bit digits. Controlled by pb0 and pb1.
