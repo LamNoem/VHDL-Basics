@@ -111,7 +111,7 @@ begin
 
 	--INST6: full_adder_4bit port map(hex_A, HEX_B, '0', SUM_4, CARRY_4);
 	INST6: full_adder_4bit port map(hex_A, hex_B, '0', SUM_4, CARRY_4);
-	signal_C <= CARRY_4 & "000";
+	signal_C <= "000" & CARRY_4;
 	
 	INST7: hex_mux port map(hex_B, HEX_A, signal_C, SUM_4, select_mux, B, A );
 
